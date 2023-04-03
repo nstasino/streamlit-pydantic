@@ -15,7 +15,7 @@ URL = "https://github.com/lukasmasuch/streamlit-pydantic"
 EMAIL = "lukas.masuch@gmail.com"
 AUTHOR = "Lukas Masuch"
 LICENSE = "MIT"
-REQUIRES_PYTHON = ">=3.7"
+REQUIRES_PYTHON = ">=3.6.9"
 VERSION = None  # Only set version if you like to overwrite the version in _about.py
 
 PWD = os.path.abspath(os.path.dirname(__file__))
@@ -45,7 +45,7 @@ setup(
     package_dir={"": "src"},
     py_modules=[splitext(basename(path))[0] for path in glob("src/*.py")],
     zip_safe=False,
-    install_requires=["streamlit>=1.14.0", "pydantic>=1.9", "importlib-resources"],
+    install_requires=["streamlit>=1.10.0", "pydantic>=1.9", "importlib-resources"],
     # deprecated: dependency_links=dependency_links,
     extras_require={
         # extras can be installed via: pip install package[dev]
