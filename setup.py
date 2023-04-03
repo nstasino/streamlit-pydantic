@@ -15,7 +15,7 @@ URL = "https://github.com/lukasmasuch/streamlit-pydantic"
 EMAIL = "lukas.masuch@gmail.com"
 AUTHOR = "Lukas Masuch"
 LICENSE = "MIT"
-REQUIRES_PYTHON = ">=3.7"
+REQUIRES_PYTHON = ">=3.6.9"
 VERSION = None  # Only set version if you like to overwrite the version in _about.py
 
 PWD = os.path.abspath(os.path.dirname(__file__))
